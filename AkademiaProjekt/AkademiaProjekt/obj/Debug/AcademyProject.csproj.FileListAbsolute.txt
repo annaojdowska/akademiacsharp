@@ -1,0 +1,14 @@
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\bin\Debug\AkademiaProjekt.exe.config
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\bin\Debug\AkademiaProjekt.exe
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\bin\Debug\AkademiaProjekt.pdb
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\AcademyProject.csprojResolveAssemblyReference.cache
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\MainWindow.g.cs
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\App.g.cs
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\AkademiaProjekt_MarkupCompile.cache
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\AkademiaProjekt_MarkupCompile.lref
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\MainWindow.baml
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\AkademiaProjekt.g.resources
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\AkademiaProjekt.Properties.Resources.resources
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\AcademyProject.csproj.GenerateResource.Cache
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\AkademiaProjekt.exe
+c:\users\anna\documents\visual studio 2015\Projects\AkademiaProjekt\AkademiaProjekt\obj\Debug\AkademiaProjekt.pdb

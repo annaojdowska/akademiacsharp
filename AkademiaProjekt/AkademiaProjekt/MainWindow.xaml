@@ -1,0 +1,41 @@
+﻿<Window x:Class="AkademiaProjekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AkademiaProjekt"
+        mc:Ignorable="d"
+        Title="Library" Height="370" Width="525">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0">
+            <Label x:Name="header1" Grid.Row="0" Content="Publications" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Cambria" FontSize="16"/>
+            <ListBox x:Name="authorsListBox" Grid.Row="1"  Margin="3" ItemsSource="{Binding PublicationsView}" IsSynchronizedWithCurrentItem="True"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Label x:Name="header2" Grid.Row="0" Content="Details" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Cambria" FontSize="16"/>
+            <TextBlock x:Name="textBlock" Grid.Row="1" Margin ="10" TextWrapping="Wrap" Text="{Binding Description}" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Cambria" FontSize="13"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="add" Content="Add publication" Grid.Column ="0" Height="30" Background="LightCoral" Click="Add_Click"/>
+                <Button x:Name="save" Content="Save to file" Grid.Column ="1" Height="30" Background="LightCoral" Click="Save_Click"/>
+                <Button x:Name="load" Content="Load from file" Grid.Column ="2"  Height="30" Background="LightCoral" Click="Load_Click"/>
+            </Grid>
+        </StackPanel>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Publication xsi:type="Novel">
+    <Title>The Silmarillion</Title>
+    <Author>John Ronald Reuel Tolkien</Author>
+    <Description>
+Novel titled: 'The Silmarillion'
+written by: John Ronald Reuel Tolkien in 1977
+Genre: Fantasy
+
+Collection of J. R. R. Tolkien's mythopoeic works, edited and published posthumously by his son, Christopher Tolkien. The Silmarillion, though incomplete, describes the universe of Eä in which are found the lands of Valinor, Beleriand, Númenor, and Middle-earth within which The Hobbit and The Lord of the Rings take place.</Description>
+    <YearOfRelease>1977</YearOfRelease>
+    <Genre>Fantasy</Genre>
+  </Publication>
+  <Publication xsi:type="Drama">
+    <Title>Hamlet</Title>
+    <Author>William Shakespeare</Author>
+    <Description>
+Drama titled: 'Hamlet'
+written by: William Shakespeare
+First played in: 1603
+
+ Set in the Kingdom of Denmark, the play dramatises the revenge Prince Hamlet is called to wreak upon his uncle, Claudius, by the ghost of Hamlet's father, King Hamlet. Claudius had murdered his own brother and seized the throne.</Description>
+    <FirstPlayed>1603</FirstPlayed>
+  </Publication>
+  <Publication xsi:type="Novel">
+    <Title>The Shining</Title>
+    <Author>Stephen King</Author>
+    <Description>
+Novel titled: 'The Shining'
+written by: Stephen King in 1977
+Genre: Horror
+
+The Shining centers on the life of Jack Torrance, an aspiring writer and recovering alcoholic who accepts a position as the off-season caretaker of the Overlook Hotel. His family accompanies him on this job, including his young son Danny Torrance, who possesses "the shining", an array of psychic abilities that allow Danny to see the hotel's horrific past.</Description>
+    <YearOfRelease>1977</YearOfRelease>
+    <Genre>Horror</Genre>
+  </Publication>
+</ArrayOfPublication>
