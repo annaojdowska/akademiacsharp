@@ -36,8 +36,8 @@ namespace AkademiaProjekt
             this.publicationList.Add(new Drama(title, author, description, firstPlayed));
         }
 
-        private void Save_Click(object sender, RoutedEventArgs e)
-        {
+        private void Save_Click(object sender, RoutedEventArgs e)   //funkcje obsługujące zapis i wczytywanie do pliku .xml
+        {                                                           //pochodzi z materiałów udostępnionych w ramach akademii
             Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
             dlg.FileName = "Publications";
             dlg.DefaultExt = ".xml";
